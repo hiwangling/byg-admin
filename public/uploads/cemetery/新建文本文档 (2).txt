@@ -1,0 +1,5 @@
+Route::post('api/:version/restaurant/list','api/:version.Restaurant/restaurantList');
+Route::get('api/:version/restaurant/common','api/:version.Restaurant/restaurantCommon');
+Route::get('api/:version/restaurant/info','api/:version.Restaurant/restaurantInfo');
+Route::post('api/:version/restaurant/edit','api/:version.Restaurant/restaurantEdit');
+Route::post('api/:version/restaurant/sign','api/:version.Restaurant/restaurantSign');
